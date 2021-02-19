@@ -7,7 +7,7 @@ const site = "http://192.168.1.208:3000/home"
 
 
 
-app.get('/', (req, res) => {
+app.get('/Nilesh', (req, res) => {
   res.send(`Hii please route to ${site}`)
 })
 
